@@ -1,0 +1,141 @@
+<header id="wrapper">
+        <div class="menu-area">
+            <div class="logo">
+                <h2>Slicl Slider</h2>
+            </div>
+            <div class="menu-area"> 
+                <ul>
+                    <li>href="#"</li>
+                    <li></li>
+                </ul>
+        </div>
+    </header>
+
+ <script type="text/javascript">
+      $(document).ready(function(){
+          $('.thing').slick({
+              dots: true,
+              arrows: false,
+              autoplay: true,
+              autoplayspeed: 2000
+          });
+      });
+    </script>
+
+ <div class="container">
+        <header id="wrapper">
+            <div class="menu-area">
+                <div class="logo">
+                    <h2>YOGAFUN</h2>
+                </div>
+                <div class="menu-item">
+                    <ul>
+                        <li><a href="#">HOME</a>
+                            <ul><a href="#">ABOUT</a>
+                                <ul>
+                                    <li><a href="#">CLASSES</a>
+                                        <ul>
+                                            <li><a href="#">Link 1</a></li>
+                                            <li><a href="#">Link 2</a></li>
+                                            <li><a href="#">Link 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <ul>
+                                        <li><a href="#">BLOG</a>
+                                    <ul>
+                                        <li><a href="#">CONTACT</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                        </li>
+                    </ul>
+                    </li>
+                    </ul>
+                    </li>
+                    </ul>
+                </div>
+        </header>
+
+
+
+
+  <div class="row">
+            <div class="column">
+                <img src="image/1.jpg" alt="" >
+                <p class="caption">+</p>
+            </div>
+            <div class="column">
+                <img src="image/2.jpg" >
+            </div>
+            <div class="column">
+                <img src="image/3.jpg">
+            </div>
+                <img src="image/4.jpg" >
+            </div>
+            <div class="column">
+                <img src="image/5.jpg" >
+            </div>
+            <div class="column">
+                 <img src="image/6.jpg" >
+            </div>
+             </div>
+
+
+
+ <div class="container">
+        <header id="wrapper">
+            <div class="menu-area">
+                <div class="logo">
+                    <h2>YOGAFUN</h2>
+                </div>
+                <div class="menu-item">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CLASSES</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+
+                    </ul>
+                </div>
+        </header>
+
+<div class="wrapper">
+            <div class="row">
+
+                <div class="col">
+                    <image class="img-responsive" src="image/1.jpg" alt="">
+                </div>
+                <div class="col">
+                    <image class="img-responsive" src="image/2.jpg" alt="">
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col">
+                    <image class="img-responsive" src="image/3.jpg" alt="">
+                </div>
+                <div class="col">
+                    <image class="img-responsive" src="image/4.jpg" alt="">
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col">
+                    <image class="img-responsive" src="image/5.jpg" alt="">
+                </div>
+                <div class="col">
+                    <image class="img-responsive" src="image/6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+.container {
+    display: flex; /* or inline-flex */
+    flex-flow: column wrap;
+    
+   
+  }

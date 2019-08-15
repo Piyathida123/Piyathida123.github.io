@@ -1,0 +1,193 @@
+body{
+    overflow-x: hidden;
+   background-image: url("image/blackbg.jpg");
+   font-family: 'DB Helvethaica X UlLi';
+
+}
+@font-face {
+    font-family: 'DB Helvethaica X UlLi';
+    src: url('asset/fonts/DB Helvethaica X/DB Helvethaica X UlLi Ext v3.2.eot');
+    /* IE9 Compat Modes */
+    src: url('asset/fonts/DB Helvethaica X/DB Helvethaica X UlLi Ext v3.2.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('asset/fonts/DB Helvethaica X/DB Helvethaica X UlLi Ext v3.2.woff2') format('woff2'), /* Super Modern Browsers */
+    url('asset/fonts/DB Helvethaica X/DB Helvethaica X UlLi Ext v3.2.woff') format('woff'), /* Pretty Modern Browsers */
+    url('asset/fonts/DB Helvethaica X/DB Helvethaica X UlLi Ext v3.2.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('asset/fonts/DB Helvethaica X/DB Helvethaica X UlLi Ext v3.2.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+h3{
+    font-family: 'DB Helvethaica X UlLi';
+}
+header{
+    background-color: rgb(243, 218, 188);
+
+}
+nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .5s;
+    background-color: transparent;
+    z-index: 2;
+}
+nav.black{
+    background: black;
+}
+nav .logo{
+    float: left;
+}
+nav .logo img{
+    height: 80px;
+    transition: .5s;
+}
+nav ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    list-style: 80px;
+    color: #fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.nav-button{
+    padding: 25px;
+    color: #FFFFFF;	
+    font-family: "Helvetica Neue";	
+    font-size: 18px;	
+    font-weight: 500;	
+    letter-spacing: 2px;	
+    line-height: 26px;
+}
+
+.banner-slide img{
+    width: 100%;
+    height: 800px;
+    opacity: 0.9;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.slide-button{
+    position: relative;
+    top:300px;
+    z-index: 1;
+    display: flex;
+}
+
+button.prev-button:focus , button.next-button:focus{
+    outline: none;
+}
+
+button.prev-button , button.next-button{ 
+    background: transparent;
+    border: none;
+}
+
+button.prev-button img, button.next-button img{
+    width:40px;
+}
+
+button.next-button{
+    position: absolute;
+    right: 20px;
+}
+
+button.prev-button{
+    position: absolute;
+    left: 20px;
+}
+  /*------------------------ image-chapter ----------------------*/
+  .section1{
+    padding: 60px;
+    width: 100%;
+    justify-content: space-around;
+
+  }
+  .section1 h1{
+    font-size: 7rem;
+    color:#dadada;
+    line-height: 0.5;
+    font-family: inherit;
+    letter-spacing: -.025rem;
+    margin-bottom: 30px;
+   
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    flex: 32%;
+    max-width: 32%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 30px;
+    vertical-align: middle;
+    width: 90%;
+  }
+ 
+  .column img:hover {
+  padding: 30px;
+  transition: .3s;
+  
+}
+
+/* ----- About page ------ */
+.about{
+    background-image: url("image/bg1.jpg");
+    padding: 100px;
+    text-align: center;
+    font-family: 'DB Helvethaica X UlLi';
+    font-weight: 900;
+}
+
+.card {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    justify-content: center;
+    margin: auto;
+  }
+  .card img:hover{
+    opacity: 0.7;
+    color: rgba(73, 56, 35, 0.425);
+  
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  .card a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+    margin: 10px;
+  }
+  
+  .card a:hover {
+    opacity: 0.7;
+    color: rgb(73, 56, 35);
+  }
+ 
+  .menu_animation {
+    animation-duration: 1.5s;
+  }

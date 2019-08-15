@@ -1,7 +1,121 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Hello Github Pages</title>
-  <body>
-    <h1>Hello Github Pages</h1>
-  </body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pruksa</title>
+    <link rel="stylesheet" type="text/css" href="Bonita.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="animates.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
+</head>
+
+<body>
+    <header>
+<nav>
+    <div class="logo">
+            <a href ="index.html"><img src="image/logo.png"></a>
+    </div>
+    <ul class="nav-button ">
+        <li ><a href ="index.html">Bonita Fleur</a></li>
+        <li ><a href ="About.html">About</a></li>
+    </ul>
+</li>
+</nav>
+</header>
+<div class="menu_animation animated fadeIn">  
+    <section class="banner">
+        <div class="slide-button">
+            <div>
+                <button class="prev-button"><img src="asset/icons/back.svg"></button>
+            </div>
+            <div>
+                <button class="next-button"><img src="asset/icons/next.svg"></button>
+            </div>
+        </div>
+
+            <div class="banner-slide">
+                <div><img src="image/banner1.jpeg"></div>
+                <div><img src="image/banner2.jpeg"></div>
+                <div><img src="image/banner3.jpeg"></div>
+              </div>
+
+
+    </section>
+
+    <section class="section1">
+            <!-- Photo Grid -->
+              <div class="row"> 
+                <div class="column">
+                <h1 class="hideme">01—</h1>
+                <h1 class="hideme" >Gallery</h1>
+                <h1 class="hideme">Bloom</h1>
+              </div>
+          
+            <div class="column">
+              <img  src="image/pic1.jpg" style="width:100%">
+              <img src="image/pic2.jpg" style="width:100%">
+              <img src="image/pic3.jpg" style="width:100%">
+              
+            </div>
+          
+            <div class="column" >
+              <img src="image/pic4.jpg" style="width:100%">
+              <img src="image/pic5.jpg" style="width:100%">
+              <img src="image/pic6.jpg" style="width:100%">
+
+            </div>
+          
+          </section>
+          
+    </section>
+</div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.banner-slide').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+                autoplay:true,
+                autoplaySpeed:1000,
+                arrows: true,
+                prevArrow:$('.prev-button'),
+                nextArrow:$('.next-button'),
+            });
+        });
+    </script>
+     <!--nav bar-->
+  <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav";
+        }
+      }
+      </script>
+      <!------------------- nav ---------------------->
+<script type="text/javascript">
+    $(window).on('scroll',function(){
+        if ($(window).scrollTop()){
+            $('nav').addClass('black');
+        }
+        else{
+            $('nav').removeClass('black');
+        }
+    })
+
+  </script>
+</body>
+
 </html>
